@@ -95,7 +95,7 @@ Where:
 ## Screenshots
 
 ### Initial State
-<img src="image.png" alt="Initial State" width="300"/>
+<img src="image.png" alt="Initial State" width="500"/>
 
 ### Displaying Search Results
 <img src="image-1.png" alt="Initial State" width="500"/>
