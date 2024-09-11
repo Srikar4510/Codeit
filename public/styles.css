@@ -370,24 +370,18 @@ button {
 }
 
 /* Footer */
-
 .footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  align-items: center; /* Centers the icons vertically */
+  gap: 20px; /* Adds spacing between the icons */
 }
 
 .footer-container a img {
   width: 20px;
 }
 
-.link-1 {
-  justify-self: flex-end;
-}
 
-.link-2 {
-  justify-self: start;
-}
 
 .copy-container {
   color: #65686b;
@@ -395,6 +389,8 @@ button {
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
+
+
 
 .rule-box {
   width: 80%;

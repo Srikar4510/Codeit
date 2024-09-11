@@ -7,7 +7,7 @@ for (let i = 0; i < N; i++) {
   tf[i] = new Array(0);
 }
 
-const TF = fs.readFileSync("./TF.txt").toString();
+const TF = fs.readFileSync("TF.txt").toString();
 
 const temp = TF.split("\n");
 for (let k = 0; k < temp.length; k++) {
